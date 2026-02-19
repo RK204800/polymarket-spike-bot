@@ -47,7 +47,7 @@ COOLDOWN_PERIOD = int(os.getenv("COOLDOWN_PERIOD", "30"))       # Seconds betwee
 
 # --- Wallet & Contract Configuration ---
 WEB3_PROVIDER = os.getenv("WEB3_PROVIDER", "https://polygon-rpc.com")
-PRIVATE_KEY = os.getenv("PK", "")
+PRIVATE_KEY = os.getenv("PK") or os.getenv("PRIVATE_KEY", "")
 YOUR_PROXY_WALLET = os.getenv("YOUR_PROXY_WALLET", "")
 BOT_TRADER_ADDRESS = os.getenv("BOT_TRADER_ADDRESS", "")
 USDC_CONTRACT_ADDRESS = os.getenv("USDC_CONTRACT_ADDRESS", "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174")
