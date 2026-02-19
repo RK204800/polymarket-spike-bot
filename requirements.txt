@@ -1,0 +1,11 @@
+# Polymarket Spike Reversal Bot
+# Core dependencies
+web3==6.11.1
+python-dotenv==1.0.0
+requests==2.31.0
+py-clob-client==0.1.0
+halo==0.0.31
+colorlog==6.7.0
+
+# For Discord notifications
+discord-webhook>=0.19.0
