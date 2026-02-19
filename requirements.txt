@@ -1,14 +1,7 @@
-# Core
-web3
+web3>=6.0.0
 python-dotenv
 requests
-
-# Polymarket
-py-clob-client
-
-# Logging & UI
+py-clob-client>=0.21.0
 halo
 colorlog
-
-# Notifications
 discord-webhook
