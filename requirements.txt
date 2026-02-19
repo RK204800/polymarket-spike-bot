@@ -1,7 +1,7 @@
 web3>=6.0.0
 python-dotenv
 requests
-py-clob-client>=0.21.0
+py-clob-client>=0.34.0
 halo
 colorlog
 discord-webhook
